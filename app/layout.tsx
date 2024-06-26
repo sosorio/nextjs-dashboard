@@ -9,7 +9,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lusitana.className} antialiased`}>
-        <h1 className='text-blue-500'>Este titulo</h1>
         <div style={{border: '1px solid #000'}}>
           {children}
           </div>
