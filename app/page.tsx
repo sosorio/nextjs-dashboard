@@ -1,48 +1,62 @@
-import AcmeLogo from '@/app/ui/acme-logo';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import Image from 'next/image';
-import styles from '@/app/ui/home.module.css';
+import FormularioTypeform from './ui/dashboard/FormularioTypeform';
 
-export default function Page() {
+
+
+
+
+
+export const metadata = {
+  title: "Agencia Seo | DSeo.CO",
+  description: "Agencia Seo de profesionales para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados."
+}
+
+export default async function Page() {
+
+
+
   return (
-    <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-        {/* <AcmeLogo /> */}
+    <main className='p-0 mt-0'>
+      <h1 className='text-2xl bg-blue-900 text-white p-2 text-center mb-5'>Te ayudamos a crecer en Google.</h1>
+
+      
+
+      <div className='flex-row justify-between items-center'>
+      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Pasos a seguir:</h1>
+      <ol  className="list-decimal ml-5">
+        <li className='text-xl p-2'><Link href="/nicho">Ingresas los datos de tu página en el botón Comenzar Ahora.</Link></li>
+        <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos el estudio de nicho de mercado en Google y el Diagnóstico de tu Web.</Link></li>
+        <li className='text-xl p-2'><Link href="/mejora-web">Te presentamos los resultados y una propuesta de tu Plan de mejoramiento web.</Link></li></ol>
+
+      </span>
+        <span className='w-100% md:w-1/2'>
+      
+
+      
+<FormularioTypeform />
+
+
+      
+      
+      </span>
       </div>
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-      <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Bienvenido al curso.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
-          </p>
-          <Link
-            href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-          >
-            <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
+      <div className='flex-row md:flex justify-start items-center'><p className='mt-5 text-2xl'>Nuestros resultados:</p>
+      <ul  className="mt-5 list-none flex-row md:flex">
+        <li className='text-xl p-2'>1.5 millones de impresiones mensuales.</li>
+        <li className='text-xl p-2'>50k paginas indexadas.</li>
+        <li className='text-xl p-2'>50k visitas mensuales.</li>
+        <li className='text-xl p-2'>150k ventas generadas.</li>
+
+      </ul>
         </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-        <Image
-          src='/hero-desktop.png'
-          alt='Screenshots of the dashboard'
-          width={1000}
-          height={760}
-          className='hidden md:block'
-        />
-          <Image
-          src='/hero-mobile.png'
-          alt='Screenshots of the dashboard'
-          width={560}
-          height={620}
-          className='block md:hidden'
-        />
-        </div>
-      </div>
+
+
+
+
+<div className="italic mt-5 mb-5"><span>Ver más{'-->'} </span><span className="underline p-2"><Link href="/nicho">Nicho</Link></span><span className="underline p-2"><Link href="/diagnostico-web">Diagnóstico</Link></span><span className="underline p-2"><Link href="/mejora-web">Mejora</Link></span><span className="underline p-2"><Link href="/business">Local</Link></span><span className="underline p-2"><Link href="/casos-de-exito">Casos de éxito</Link></span><span className="underline p-2"><Link href="/libro">Libro</Link></span></div>
+
+
+
     </main>
   );
 }

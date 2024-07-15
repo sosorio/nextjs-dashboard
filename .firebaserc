@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "nextjs-firebase-61957",
+    "next": "nextjs-firebase-61957"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

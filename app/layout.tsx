@@ -1,5 +1,9 @@
-import { lusitana } from './ui/fonts';
+import { roboto } from './ui/fonts';
 import './ui/global.css';
+import SideNav from "./ui/dashboard/sidenav";
+import Link from 'next/link';
+
+
 
 export default function RootLayout({
   children,
@@ -8,12 +12,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lusitana.className} antialiased`}>
-        <div style={{border: '1px solid #000'}}>
-          {children}
-          </div>
-          <footer className='py-10 flex justify-center items-center'>Hecho con amor por la gente de Vercel. </footer>
+      <body className={`${roboto.className} antialiased`}>
+        
+          <div className="flex h-auto flex-col md:flex-row md:overflow-hidden">
+      <div className="w-full flex-none md:w-64">
+        <SideNav />
+      </div>
+      <div className="grow p-6 md:overflow-y-auto md:p-6">{children}</div>
+    </div>
+    
+    <footer className='text-center mt-5'>DSeo.CO <Link href="/agencia-seo-medellin">Agencia SEO en Medellín</Link> y <Link href="/agencia-seo-bogota">Bogotá</Link>, <Link href="/agencia-seo-colombia">Colombia.</Link></footer>
           </body>
     </html>
   );
 }
+
+
