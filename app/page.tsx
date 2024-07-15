@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import FormularioTypeform from './ui/dashboard/FormularioTypeform';
+import FormularioEnPagina from './ui/dashboard/FormularioEnPagina';
 
 
 
@@ -22,9 +22,9 @@ export default async function Page() {
       
 
       <div className='flex-row justify-between items-center'>
-      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Pasos a seguir:</h1>
+      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Obten una pro:</h1>
       <ol  className="list-decimal ml-5">
-        <li className='text-xl p-2'><Link href="/nicho">Ingresas los datos de tu página en el botón Comenzar Ahora.</Link></li>
+        <li className='text-xl p-2'>Ingresas los datos de tu página en el botón Comenzar Ahora.</li>
         <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos el estudio de nicho de mercado en Google y el Diagnóstico de tu Web.</Link></li>
         <li className='text-xl p-2'><Link href="/mejora-web">Te presentamos los resultados y una propuesta de tu Plan de mejoramiento web.</Link></li></ol>
 
@@ -33,7 +33,7 @@ export default async function Page() {
       
 
       
-<FormularioTypeform />
+<FormularioEnPagina />
 
 
       
