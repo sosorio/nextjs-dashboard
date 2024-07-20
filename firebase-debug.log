@@ -1,0 +1,14 @@
+[debug] [2024-07-20T15:45:05.554Z] ----------------------------------------------------------------------
+[debug] [2024-07-20T15:45:05.560Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-07-20T15:45:05.560Z] CLI Version:   13.11.2
+[debug] [2024-07-20T15:45:05.561Z] Platform:      win32
+[debug] [2024-07-20T15:45:05.561Z] Node Version:  v20.15.1
+[debug] [2024-07-20T15:45:05.561Z] Time:          Sat Jul 20 2024 10:45:05 GMT-0500 (hora estándar de Colombia)
+[debug] [2024-07-20T15:45:05.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-20T15:45:05.757Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-20T15:45:05.758Z] > authorizing via signed-in user (sosorio1973@gmail.com)
+[debug] [2024-07-20T15:45:05.758Z] [iam] checking project nextjs-firebase-61957 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-07-20T15:45:05.762Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nextjs-firebase-61957:testIamPermissions [none]
+[debug] [2024-07-20T15:45:05.762Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nextjs-firebase-61957:testIamPermissions x-goog-quota-user=projects/nextjs-firebase-61957
+[debug] [2024-07-20T15:45:05.763Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nextjs-firebase-61957:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

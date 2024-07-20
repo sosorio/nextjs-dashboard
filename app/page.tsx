@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import FormularioEnPagina from './ui/dashboard/FormularioEnPagina';
+import SolicitarAsesoria from './ui/SolicitarAsesoria';
+
 
 
 
@@ -22,10 +23,11 @@ export default async function Page() {
       
 
       <div className='flex-row justify-between items-center'>
-      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Obten una pro:</h1>
+      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Nuestro método:</h1>
       <ol  className="list-decimal ml-5">
-        <li className='text-xl p-2'>Ingresas los datos de tu página en el botón Comenzar Ahora.</li>
-        <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos el estudio de nicho de mercado en Google y el Diagnóstico de tu Web.</Link></li>
+
+        <li className='text-xl p-2'><Link href="/nicho">Realizamos el estudio de nicho de mercado en Google.</Link></li>
+        <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos un dagnóstico de tu página web.</Link></li>
         <li className='text-xl p-2'><Link href="/mejora-web">Te presentamos los resultados y una propuesta de tu Plan de mejoramiento web.</Link></li></ol>
 
       </span>
@@ -33,7 +35,7 @@ export default async function Page() {
       
 
       
-<FormularioEnPagina />
+
 
 
       
@@ -51,9 +53,9 @@ export default async function Page() {
         </div>
 
 
+<SolicitarAsesoria/>
 
 
-<div className="italic mt-5 mb-5"><span>Ver más{'-->'} </span><span className="underline p-2"><Link href="/nicho">Nicho</Link></span><span className="underline p-2"><Link href="/diagnostico-web">Diagnóstico</Link></span><span className="underline p-2"><Link href="/mejora-web">Mejora</Link></span><span className="underline p-2"><Link href="/business">Local</Link></span><span className="underline p-2"><Link href="/casos-de-exito">Casos de éxito</Link></span><span className="underline p-2"><Link href="/libro">Libro</Link></span></div>
 
 
 

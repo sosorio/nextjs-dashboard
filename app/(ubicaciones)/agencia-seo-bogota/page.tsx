@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SolicitarAsesoria from "@/app/ui/SolicitarAsesoria"
+
 
 export const metadata = {
     title: "Agencia Seo Bogotá | DSeo.CO",
@@ -15,9 +15,8 @@ export default function BogotaPage() {
 <p  className="p-5 text-xl">Conocemos la ciudad y sus dinamicas en las diferentes localidades: Suba, Kennedy, Engativa, Ciudad Bolivar, Bosa, Usaquen, Usme, San Cristobal, Fontibón, Rafael Uribe Uribe, Puente Aranda, Barrios Unidos, Tunjuelito, Chapinero, Antonio Nariño y Santa Fe.  Lo cual nos permite un mejor análisis del mercado en cada caso.</p>
 
 
-<div className="italic mt-5 mb-5"><span>Ver más{'-->'} </span><span className="underline p-2"><Link href="/nicho">Nicho</Link></span><span className="underline p-2"><Link href="/diagnostico-web">Diagnóstico</Link></span><span className="underline p-2"><Link href="/mejora-web">Mejora</Link></span><span className="underline p-2"><Link href="/business">Local</Link></span><span className="underline p-2"><Link href="/casos-de-exito">Casos de éxito</Link></span><span className="underline p-2"><Link href="/libro">Libro</Link></span></div>
 
-<SolicitarAsesoria/>
+
 
 
     </>)
