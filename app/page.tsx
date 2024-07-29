@@ -18,16 +18,17 @@ export default async function Page() {
 
   return (
     <main className='p-0 mt-0'>
-      <h1 className='text-2xl bg-blue-900 text-white p-2 text-center mb-5'>Te ayudamos a crecer en Google.</h1>
+      <div className='hidden md:block text-2xl bg-blue-900 text-white p-1 text-center mb-5'>Te ayudamos a crecer en Google.</div>
 
+<h1 className='md:hidden text-2xl text-center'>Te Ayudamos a Crecer en Google.</h1>
       
 
       <div className='flex-row justify-between items-center'>
-      <span className='w-100% md:w-1/2'><h1 className='text-2xl mt-10 ml-5'>Nuestro método:</h1>
+      <span className='w-100% md:w-1/2'><h2 className='text-2xl mt-10 ml-5'>Nuestro método:</h2>
       <ol  className="list-decimal ml-5">
 
         <li className='text-xl p-2'><Link href="/nicho">Realizamos el estudio de nicho de mercado en Google.</Link></li>
-        <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos un dagnóstico de tu página web.</Link></li>
+        <li className='text-xl p-2'><Link href="/diagnostico-web">Realizamos un diagnóstico de tu página web.</Link></li>
         <li className='text-xl p-2'><Link href="/mejora-web">Te presentamos los resultados y una propuesta de tu Plan de mejoramiento web.</Link></li></ol>
 
       </span>

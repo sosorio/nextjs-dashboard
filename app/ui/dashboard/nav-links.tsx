@@ -5,7 +5,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
+
 
 
 
@@ -13,16 +13,16 @@ import clsx from 'clsx';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   
-   { name: 'Estudio Nicho de Mercado', shortName:'Nicho', href: '/nicho', icon: PresentationChartLineIcon },
+   { name: 'Estudio Nicho de Mercado', shortName:'Estudio Nicho', href: '/nicho', icon: PresentationChartLineIcon },
   {
-    name: 'Diagnostico web', shortName:'Diagnóstico',
+    name: 'Diagnostico web', shortName:'Diagnóstico Web',
     href: '/diagnostico-web',
     icon: DocumentCheckIcon,
   },
-  { name: 'Mejora web', shortName:'Mejora', href: '/mejora-web', icon: ArrowUpRightIcon },
-  { name: 'Google Business', shortName:'Business', href: '/business', icon: MapPinIcon },
+  { name: 'Mejora web', shortName:'Mejora Web', href: '/mejora-web', icon: ArrowUpRightIcon },
+  
   { name: 'Casos de exito', shortName:'Casos', href: '/casos-de-exito', icon: FaceSmileIcon },
-  { name: 'Nuestro libro', shortName:'Libro', href: '/libro', icon: BookOpenIcon }
+
 ];
 
 export default function NavLinks() {
@@ -36,16 +36,11 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx(
-              'flex h-[56px] grow items-center justify-center gap-2 rounded-md bg-gray-200 p-3 text-md font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3',
-              {
-                'bg-grey-500 text-black-900': pathname === link.href,
-              },
-            )}
+            className={`flex h-[56px] grow items-center justify-center gap-2 rounded-md bg-blue-950 text-white p-1 text-md font-medium hover:bg-sky-700 md:flex-none md:justify-start md:p-2 md:px-3 ${pathname === link.href ? 'bg-gray-950' : ''}`}
           >
             <LinkIcon className="hidden md:block w-6" />
             <p className="hidden  md:block">{link.name}</p>
-            <div className="md:hidden text-xs">{link.shortName}</div>
+            <div className="md:hidden text-sm text-center">{link.shortName}</div>
           </Link>
         );
       })}

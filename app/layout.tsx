@@ -11,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link
@@ -36,7 +36,7 @@ export default function RootLayout({
       <div className="grow p-6 md:overflow-y-auto md:p-6">{children}</div>
     </div>
     
-    <footer className='text-center mt-5'>DSeo.CO <Link href="/agencia-seo-medellin">Agencia SEO en Medellín</Link>,<Link href="/agencia-seo-bogota"> Bogotá</Link>, <Link href="/agencia-seo-cali">Cali</Link>, <Link href="/agencia-seo-barranquilla">Barranquilla</Link>, <Link href="/agencia-seo-cartagena">Cartagena</Link>, <Link href="/agencia-seo-soacha">Soacha</Link>, <Link href="/agencia-seo-cucuta">Cúcuta</Link>, <Link href="/agencia-seo-soledad-atlantico">Soledad</Link>, <Link href="/agencia-seo-bucaramanga">Bucaramanga</Link>, <Link href="/agencia-seo-bello-antioquia">Bello</Link>, <Link href="/agencia-seo-valledupar">Valledupar</Link>, <Link href="/agencia-seo-villavicencio">Villavicencio</Link>, <Link href="/agencia-seo-santa-marta">Santa Marta</Link>, <Link href="/agencia-seo-ibague">Ibague</Link>, <Link href="/agencia-seo-monteria">Montería</Link>, <Link href="/agencia-seo-pereira">Pereira</Link>, <Link href="/agencia-seo-manizales">Manizales</Link>, <Link href="/agencia-seo-pasto">Pasto</Link>, <Link href="/agencia-seo-neiva">Neiva</Link>, <Link href="/agencia-seo-palmira">Palmira</Link>, <Link href="/agencia-seo-popayan">Popayán</Link>, <Link href="/agencia-seo-buenaventura">Buenaventura</Link>, <Link href="/agencia-seo-armenia">Armenia</Link>, <Link href="/agencia-seo-floridablanca">Floridablanca</Link>, <Link href="/agencia-seo-itagui">Itagui</Link> y <Link href="/agencia-seo-envigado">Envigado</Link></footer>
+    <footer className='text-center mt-5'>DSeo.CO <Link href="/agencia-seo-medellin">Agencia SEO en Medellín</Link>,<Link href="/agencia-seo-bogota"> Bogotá</Link>, <Link href="/agencia-seo-cali">Cali</Link>, <Link href="/agencia-seo-barranquilla">Barranquilla</Link>, <Link href="/agencia-seo-cartagena">Cartagena</Link>, <Link href="/agencia-seo-soacha">Soacha</Link>, <Link href="/agencia-seo-cucuta">Cúcuta</Link>, <Link href="/agencia-seo-soledad-atlantico">Soledad</Link>, <Link href="/agencia-seo-bucaramanga">Bucaramanga</Link>, <Link href="/agencia-seo-bello-antioquia">Bello</Link>, <Link href="/agencia-seo-valledupar">Valledupar</Link>, <Link href="/agencia-seo-villavicencio">Villavicencio</Link>, <Link href="/agencia-seo-santa-marta">Santa Marta</Link>, <Link href="/agencia-seo-ibague">Ibague</Link>, <Link href="/agencia-seo-monteria">Montería</Link>, <Link href="/agencia-seo-pereira">Pereira</Link>, <Link href="/agencia-seo-manizales">Manizales</Link>, <Link href="/agencia-seo-pasto">Pasto</Link>, <Link href="/agencia-seo-neiva">Neiva</Link>, <Link href="/agencia-seo-palmira">Palmira</Link>, <Link href="/agencia-seo-popayan">Popayán</Link>, <Link href="/agencia-seo-buenaventura">Buenaventura</Link>, <Link href="/agencia-seo-armenia">Armenia</Link>, <Link href="/agencia-seo-floridablanca">Floridablanca</Link>, <Link href="/agencia-seo-itagui">Itagui</Link> y <Link href="/agencia-seo-envigado">Envigado</Link>,<Link href="/agencia-seo-colombia"> Colombia</Link></footer>
           </body>
     </html>
   );

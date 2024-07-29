@@ -3,12 +3,11 @@
 
 export default function AcmeLogo() {
   return (
-    <div
-      
-    >
+    <div>
   
-  <h1 className="text-center text-[24px]">Agencia SEO</h1>
-  <p className="text-center text-[42px] bold">DSeo.CO</p>
+
+  <p className="text-center text-[42px] bold p-0">Dseo.CO</p>
+
      
     </div>
   );
