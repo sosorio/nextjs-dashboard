@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Pasto | DSeo.CO",
+    title: "Agencia Seo Pasto | Dseo.CO",
     description: "Agencia Seo Pasto, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado nariñense."
 }
 

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Buenaventura | DSeo.CO",
+    title: "Agencia Seo Buenaventura | Dseo.CO",
     description: "Agencia Seo Buenaventura, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado bonaverense."
 }
 

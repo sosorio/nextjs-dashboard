@@ -1,7 +1,7 @@
 import Link  from "next/link";
 
 export const metadata = {
-  title: "Diagnóstico de su sitio web | DSeo.CO",
+  title: "Diagnóstico de su sitio web | Dseo.CO",
   description: "Productos Vs Demanda, enfoque página y embudo de conversión, tamaño y estructura del sitio, contenidos, posicionamiento, core web vitals y autoridad del sitio."
 }
 

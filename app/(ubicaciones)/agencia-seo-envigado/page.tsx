@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Envigado | DSeo.CO",
+    title: "Agencia Seo Envigado | Dseo.CO",
     description: "Agencia Seo Envigado, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado paisa."
 }
 

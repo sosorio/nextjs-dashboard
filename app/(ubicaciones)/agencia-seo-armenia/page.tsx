@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Armenia | DSeo.CO",
+    title: "Agencia Seo Armenia | Dseo.CO",
     description: "Agencia Seo Armenia, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado quindiano."
 }
 

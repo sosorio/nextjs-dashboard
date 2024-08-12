@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Villavicencio | DSeo.CO",
+    title: "Agencia Seo Villavicencio | Dseo.CO",
     description: "Agencia Seo Villavicencio, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado paisa."
 }
 

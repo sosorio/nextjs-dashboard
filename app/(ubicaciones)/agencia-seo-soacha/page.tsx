@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Soacha | DSeo.CO",
+    title: "Agencia Seo Soacha | Dseo.CO",
     description: "Agencia Seo Soacha, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado capitalino y alrededores."
 }
 

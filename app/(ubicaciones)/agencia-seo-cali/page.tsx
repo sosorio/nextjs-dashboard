@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Cali | DSeo.CO",
+    title: "Agencia Seo Cali | Dseo.CO",
     description: "Agencia Seo Cali, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado caleño."
 }
 

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Popayán | DSeo.CO",
+    title: "Agencia Seo Popayán | Dseo.CO",
     description: "Agencia Seo Popayán, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado caucano."
 }
 

@@ -1,6 +1,6 @@
 
 export const metadata = {
-    title: "Agencia Seo Medellín El Poblado | DSeo.CO",
+    title: "Agencia Seo Medellín El Poblado | Dseo.CO",
     description: "Agencia Seo Medellín El Poblado, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado paisa."
 }
 

@@ -2,7 +2,7 @@
 
 
 export const metadata = {
-    title: "Agencia Seo Bogotá Puente Aranda | DSeo.CO",
+    title: "Agencia Seo Bogotá Puente Aranda | Dseo.CO",
     description: "Agencia Seo Bogotá Puente Aranda, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado Bogotano."
 }
 

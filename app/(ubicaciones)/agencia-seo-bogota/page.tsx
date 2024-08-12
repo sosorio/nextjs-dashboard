@@ -2,7 +2,7 @@ import Link from "next/link";
 
 
 export const metadata = {
-    title: "Agencia Seo Bogotá | DSeo.CO",
+    title: "Agencia Seo Bogotá | Dseo.CO",
     description: "Agencia Seo Bogotá, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado Bogotano."
 }
 

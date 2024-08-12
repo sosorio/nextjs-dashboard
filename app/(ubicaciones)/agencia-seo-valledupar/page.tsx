@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Valledupar | DSeo.CO",
+    title: "Agencia Seo Valledupar | Dseo.CO",
     description: "Agencia Seo Valledupar, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado vallenato."
 }
 

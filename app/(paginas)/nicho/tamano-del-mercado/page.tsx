@@ -14,7 +14,7 @@ export default function NichosPage() {
         <li className="p-4"><strong>Palabras de alta conversión:  relacionada muy directamente con la compra del producto o servicio.</strong></li>
     </ol>
     <div className="italic"><span className="underline"><Link href="/nicho">Nicho. </Link></span><span>{'<--'}Volver a Nicho</span></div>
-    <div className="italic"><span> {'-->'}</span><span className="underline"><Link href="/nicho/contexto-de-ubicacion">Contexto de ubicación.</Link></span><span className="underline"><Link href="/contexto-de-ubicacion"> Contexto de ubicación.</Link></span></div>
+    <div className="italic"><span> {'-->'}</span><span className="underline"><Link href="/nicho/contexto-de-ubicacion">Contexto de ubicación.</Link></span>  <span className="underline"><Link href="/nicho/benchmarking-competidores"> Benchmarking competidores.</Link></span></div>
  
     </>    
 

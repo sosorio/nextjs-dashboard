@@ -2,7 +2,7 @@
 
 
 export const metadata = {
-    title: "Agencia Seo Bogotá Usaquen | DSeo.CO",
+    title: "Agencia Seo Bogotá Usaquen | Dseo.CO",
     description: "Agencia Seo Bogotá Usaquen, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado Bogotano."
 }
 

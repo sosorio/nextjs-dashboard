@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Palmira | DSeo.CO",
+    title: "Agencia Seo Palmira | Dseo.CO",
     description: "Agencia Seo Palmira, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado valluno."
 }
 

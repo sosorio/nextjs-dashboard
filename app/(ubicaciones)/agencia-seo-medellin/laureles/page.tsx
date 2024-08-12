@@ -1,6 +1,6 @@
 
 export const metadata = {
-    title: "Agencia Seo Medellín Laureles | DSeo.CO",
+    title: "Agencia Seo Medellín Laureles | Dseo.CO",
     description: "Agencia Seo Medellín Laureles, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado paisa."
 }
 

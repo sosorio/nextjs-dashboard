@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Floridablanca | DSeo.CO",
+    title: "Agencia Seo Floridablanca | Dseo.CO",
     description: "Agencia Seo Floridablanca, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado santanderiano."
 }
 

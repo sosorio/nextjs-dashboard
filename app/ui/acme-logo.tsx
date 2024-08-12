@@ -6,7 +6,7 @@ export default function AcmeLogo() {
     <div>
   
 
-  <p className="text-center text-[42px] bold p-0">Dseo.CO</p>
+  <p className="text-center text-[42px] bold p-0 bg-black">dSEO.co</p>
 
      
     </div>

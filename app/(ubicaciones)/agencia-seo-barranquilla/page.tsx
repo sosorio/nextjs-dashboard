@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Barranquilla | DSeo.CO",
+    title: "Agencia Seo Barranquilla | Dseo.CO",
     description: "Agencia Seo Barranquilla, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado barranquillero."
 }
 

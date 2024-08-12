@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Montería | DSeo.CO",
+    title: "Agencia Seo Montería | Dseo.CO",
     description: "Agencia Seo Montería, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado cordobés."
 }
 
@@ -10,7 +10,7 @@ export const metadata = {
 export default function MedellinPage() {
     return (<><h1 className="text-2xl">Agencia Seo Montería</h1>
 
-<p className="p-5 text-xl">En muchas ocasiones hemos estado en Monteria, siempre que vamos pasamos por Deyanira Quibbes, que delicia.  sabemos del gran crecimiento de la cliudad.  Se respira progreso y optimismo en sus habitantes.  Estamos en disposición de apoyar el crecimiento en Google de sus empresas y emprendimientos.</p>
+<p className="p-5 text-xl">En muchas ocasiones hemos estado en Monteria, siempre que vamos pasamos por Deyanira Quibbes, que delicia.  sabemos del gran crecimiento de la ciudad.  Se respira progreso y optimismo en sus habitantes.  Estamos en disposición de apoyar el crecimiento en Google de sus empresas y emprendimientos.</p>
 
 <p className="p-5 text-xl">Servicio en: Comuna 1
 La Palma

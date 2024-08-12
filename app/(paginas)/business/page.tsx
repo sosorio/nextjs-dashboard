@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export const metadata = {
-    title: "Creación o ajuste de perfiles de Google Business | DSeo.CO",
+    title: "Creación o ajuste de perfiles de Google Business | Dseo.CO",
     description: "Perfiles Google Business: Palabras claves locales. Análisis perfiles de competidores. Optimización de títulos y contenidos"
 }
 

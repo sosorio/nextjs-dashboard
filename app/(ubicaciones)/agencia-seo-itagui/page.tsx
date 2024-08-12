@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Itagui | DSeo.CO",
+    title: "Agencia Seo Itagui | Dseo.CO",
     description: "Agencia Seo Itagui, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado paisa."
 }
 

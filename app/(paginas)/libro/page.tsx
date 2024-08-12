@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-    title: "Libro: Nichos Rentables en Google | DSeo.CO",
+    title: "Libro: Nichos Rentables en Google | Dseo.CO",
     description: "Nichos Rentables en Google: Método efectivo para encontrar nichos de mercado en buscador en 2024."
 }
 
@@ -15,6 +15,7 @@ export default function LibroPage() {
     width={500}
     height={500}
     alt="Libro Nichos Rentables en Google"/>
+    <h1>Libro Nichos Rentables en Google</h1>
     <p>No importa su experiencia, este libro lo guiará a través de técnicas de búsqueda y luego la optimización de motores de búsqueda.</p><p>En este libro de SEO encontrarás:</p><ul>
             <li><i>Nichos en Google</i>:</li>
             <li>Nuevo algoritmo de Google.</li>

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Bucaramanga | DSeo.CO",
+    title: "Agencia Seo Bucaramanga | Dseo.CO",
     description: "Agencia Seo Bucaramanga, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado bumangués."
 }
 

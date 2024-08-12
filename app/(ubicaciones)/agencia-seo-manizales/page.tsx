@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Manizales | DSeo.CO",
+    title: "Agencia Seo Manizales | Dseo.CO",
     description: "Agencia Seo Manizales, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado manizalita."
 }
 

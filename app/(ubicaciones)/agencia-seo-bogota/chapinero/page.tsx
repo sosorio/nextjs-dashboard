@@ -2,7 +2,7 @@
 
 
 export const metadata = {
-    title: "Agencia Seo Bogotá Chapinero | DSeo.CO",
+    title: "Agencia Seo Bogotá Chapinero | Dseo.CO",
     description: "Agencia Seo Bogotá Chapinero, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado Bogotano."
 }
 

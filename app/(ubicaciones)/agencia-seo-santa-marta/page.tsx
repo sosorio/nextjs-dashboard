@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 export const metadata = {
-    title: "Agencia Seo Santa Marta | DSeo.CO",
+    title: "Agencia Seo Santa Marta | Dseo.CO",
     description: "Agencia Seo Santa Marta, expertos para ayudarte a crecer en Google.  Soportamos la estrategia de negocio, generamos resultados en el mercado samario."
 }
 
